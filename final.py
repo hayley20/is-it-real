@@ -200,6 +200,7 @@ def boy():
     else:
         print("ADHD")
         print("How many signs did you come across?", signs)
+        print("These are the signs:")
         for value in signsseen:
             print(value)
 
@@ -466,12 +467,14 @@ def girl():
 
     end= input("Guess what the word is?: ")
     if end == "depression":
-        print(signs)
+        print("How many signs you saw", signs)
+        print("These are the signs")
         for value in my_signs:
             print(value)
     else:
         print("depression")
-        print(signs)
+        print("How many signs you saw", signs)
+        print("These are the signs")
         for value in my_signs:
             print(value)
 
